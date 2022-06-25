@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,52 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
-        <img src="images/logo.png" id="img-logo" alt="GNews: Tudo o que você precisa saber, em um só lugar!">
+        <div class="div-menu">
+            <img src="icons/menu.png" id="img-menu" alt="Menu">
+        </div>
+        <div class="div-logo">
+            <a href="index.html">
+                <img src="images/logo.png" id="img-logo" alt="GNews: Tudo o que você precisa saber, em um só lugar!">
+            </a>
+        </div>
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="paginas/noticias.html">Notícias</a></li>
-            <li><a href="paginas/curiosidades.html">Curiosidades</a></li>
-            <li><a href="paginas/internacionais">Internacionais</a></li>
+            <li><a href="paginas/noticias.html" id="link-noticias">notícias</a></li>
+            <li><a href="paginas/tech" id="link-tech">tech</a></li>
+            <li><a href="paginas/curiosidades.html" id="link-curiosidades">curiosidades</a></li>
+            <li><a href="paginas/mundo" id="link-mundo">mundo</a></li>
         </ul>
     </nav>
     <main>
+        <div class="div-materia-destaque">
+            <img src="images/colheita-acai.jpg" class="img-div-materia" alt="Imagem colheita de açaí">
+            <h1>Colheita de açaí</h1>
+            <h2>Como vivem as famílias dos colheitadores de açaí do Pará?</h2>
+        </div>
+        <div class="div-materia-tech">
+            <img src="images/compra-twitter.jpg" class="img-div-materia" alt="Compra Twitter">
+            <h1>Compra do Twitter</h1>
+            <h2>Os perigos financeiros gerados pela possível desistência de Elon Musk</h2>
+        </div>
+        <div class="div-materia-curiosidades">
+            <img src="images/anuncio-nasa.jpg" class="img-div-materia" alt="Imagem anúncio Nasa">
+            <h1>Anúncio Nasa</h1>
+            <h2>NASA anuncia adiamento da missão que vai explorar o asteroide Psyche</h2>
+        </div>
+        <div class="div-materia-mundo">
+            <img src="images/guerra-russia.jpg" class="img-div-materia" alt="Guerra na Rússia">
+            <h1>Guerra na Rússia</h1>
+            <h2>Forças ucranianas deixarão Severodonetsk, atual foco da guerra</h2>
+        </div>
 
     </main>
     <footer>
-
+        <p>&copy GNews 2022</p>
     </footer>
 </body>
+
 </html>
